@@ -1,7 +1,7 @@
 name: bug反馈
 description: 出现了bug？在此反馈
 title: "[BUG]"
-labels: 
+labels: 'bug'
 assignees: 'huoyan1231'
 body:
 - type: textarea
