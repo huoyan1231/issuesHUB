@@ -19,7 +19,6 @@ body:
     options:
       - label: SonglistEdt
       - label: UnlockEdt
-        required: true
       
 
 
