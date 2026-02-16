@@ -11,12 +11,13 @@ body:
     description: "你什么情况下想到了可能需要这个功能？请简单描述这个功能的工作方式"
   validations:
     required: true
-- type: dropdown
+- type: checkboxes
   id: type
   attributes:
     label: 你希望这个功能添加到哪个项目？
+    description: 请选择你希望添加此功能的项目，如果你认为这个功能需要同步至所有项目，请全部勾选
     options:
-      - SonglistEdt
-      - UlEdt
+      - label: SonglistEdt
+      - label: UnlockEdt
   validations:
     required: true

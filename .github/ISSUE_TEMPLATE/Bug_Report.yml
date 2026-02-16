@@ -12,13 +12,14 @@ body:
   validations:
     required: true
 - type: checkboxes
-  id: projecttype
+  id: type
   attributes:
     label: 你在哪个项目中遇到了这个问题？
     description: 请选择你遇到项目的问题，如果一个问题在两个项目中同时存在，请全部勾选
     options:
       - label: SonglistEdt
       - label: UnlockEdt
-      
+  validations:
+    required: true
 
 
