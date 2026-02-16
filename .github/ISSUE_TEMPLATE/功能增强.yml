@@ -1,4 +1,3 @@
----
 name: 功能增强
 about: 缺少你需要的功能？在此提出
 title: "[FR]"
@@ -12,4 +11,3 @@ body:
     description: "你什么情况下想到了可能需要这个功能？请简单描述这个功能的工作方式"
   validations:
     required: true
----
