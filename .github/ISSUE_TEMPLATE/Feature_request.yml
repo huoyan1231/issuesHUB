@@ -11,3 +11,12 @@ body:
     description: "你什么情况下想到了可能需要这个功能？请简单描述这个功能的工作方式"
   validations:
     required: true
+- type: dropdown
+  id: type
+  attributes:
+    label: 你希望这个功能添加到哪个项目？
+    options:
+      - SonglistEdt
+      - UlEdt
+  validations:
+    required: true
